@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script&family=Kanit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+#logo h5 {
+    font-size: 20px;
+    color: #3f37c9;
+    display: block;
+    margin-right: 312px;
+    position: absolute;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo img {
+    height: 63px;
+    display: block;
+    position: absolute;
+    margin-right: 400px
+}
+
+#navbar {
+    opacity: 1;
+    font-family: 'Kanit', sans-serif;
+    background: #ced4da;
+    padding: 22px 1px;
+}
+
+#navbar ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+/* for transition  */
+#navbar ul li {
+
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out;
+}
+
+#navbar ul li:hover {
+    transform: scale(1.2);
+}
+
+/* transition end  */
+#navbar ul li a {
+    color: black;
+    font-weight: bold;
+    font-size: 19px;
+    padding: 2px 32px;
+    margin: 21px 26px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover {
+    transform: scale(1.2);
+    color: white;
+    background-color: #3f37c9;
+    border-radius: 10px;
+    text-decoration: underline;
+}
+
+.btn {
+    font-family: 'Kanit', sans-serif;
+    position: absolute;
+    display: block;
+    margin-left: 103px;
+    padding: 16px 19px;
+    margin-top: -25px;
+    border-radius: 29px;
+    border: none;
+    color: #3f37c9;
+    font-weight: bold;
+    cursor: pointer;
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #3f37c9;
+    color: white;
+    transform: scale(1.2);
+}
+
+#introsection {
+    height: 631px;
+    color: white;
+    /* background-color: grey; */
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+#introsection::before {
+    /* opacity: 1,9; */
+    content: "";
+    z-index: -1;
+    background: url(../static/bg8.jpg) no-repeat center center;
+    position: absolute;
+    width: 100%;
+    height: 90%;
+}
+
+#introsection h1 {
+    /* font-family: 'Dancing Script', cursive;  */
+    font-size: 53px; 
+    /* font-family: 'Protest Guerrilla', sans-serif;
+    /* padding-bottom: 400px; */
+}
+
+#introsection div {
+    font-size: 50px;
+    padding-bottom: 356px;
+    margin: 17px 13px;
+}
+
+#sponsersection {
+    height: 500px;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 25px;
+    padding-top: 12px;
+}
+
+.card-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img {
+    height: 125px;
+    padding: 0 14px;
+    margin: 24px -19px;
+}
+
+.card-img img {
+    height: inherit;
+    /* filter: invert(1); */
+}
+
+.box.card-content {
+    font-weight: bold;
+}
+
+
+#missionsection {
+    height: 365px;
+    margin: auto;
+    width: 80%;
+    display: block;
+}
+
+/* #missionsection h1 {
+    color: white;
+    margin-top: 104px
+} */
+
+
+#missionsection h1 {
+    text-align: center;
+    color: black;
+    font-size: 43px;
+    margin-top: 103px;
+}
+
+#missionsection h3 {
+    color: black;
+    text-align: center;
+    margin-top:22px;
+}
+
+.box {
+    /* border: 2px solid black; */
+    border-radius: 10px;
+
+    width: 29%;
+    background-color: grey;
+    box-shadow: 20px 20px 60px #00000080, inset 20px -20px 60px #ffffff40;
+    height: 239px;
+    display: inline-block;
+    margin: 26px 19px;
+    font-family: 'Abel', sans-serif;
+    transform: scale(1);
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+.box:hover{
+    transform: scale(1.2);
+    /* background-color: #e85d04; */
+    /* background-image: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%); */
+    background-image: linear-gradient(90deg,#305c72 0%, #064a72 40%, #0582ca 100%);
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: normal;
+    /* filter: invert(1); */
+}

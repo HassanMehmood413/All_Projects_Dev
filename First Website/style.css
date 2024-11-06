@@ -1,0 +1,138 @@
+/* CSS Reset  */
+body {
+
+    padding: 0px;
+    margin: 0px;
+    background: url(img/img1.jpg);
+    height: 1250px;
+}
+
+.left {
+    position: absolute;
+    left: 34px;
+    top: 14px;
+    display: inline-block;
+    /* border: 2px solid red; */
+}
+
+.left img {
+    width: 84px;
+    padding: 4px 26px;
+}
+
+.mid {
+    display: block;
+    width: 66%;
+    margin: 62px 192px;
+    /* border: 2px solid yellow; */
+}
+
+.right {
+    position: absolute;
+    right: 23px;
+    top: 26px;
+    display: inline-block;
+    /* border: 2px solid green; */
+}
+
+.navbr {
+    display: inline-block;
+    list-style: none;
+}
+
+.navbr li {
+    display: inline-block;
+
+}
+
+.navbr li a {
+    background-color: rgb(169, 247, 251);
+    border: 2px solid rgba(255, 253, 253, 0.533);
+    border-radius: 10px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 11px 59px;
+    margin: 12px 3px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.navbr li a:hover {
+    color: rgb(114, 205, 250);
+    text-decoration: underline;
+}
+
+.navbr li a:active {
+    color: grey;
+}
+
+.up {
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+}
+
+.down {
+    text-align: center;
+    font-size: 25px;
+}
+
+.btn {
+    padding: 11px 12px;
+    margin: 41px 3px;
+    border: 2px solid rgb(246, 244, 244);
+    border-radius: 27px;
+    color: rgb(249, 113, 95);
+    text-decoration: underline;
+}
+
+.mid {
+    /* position: fixed; */
+}
+
+.right {
+    /* position: fixed; */
+}
+
+.container {
+    position: relative;
+    left: 413px;
+    display: inline-block;
+    /* border: 2px solid grey; */
+    padding: 47px 68px;
+    margin: 78px 122px;
+    width: 39%;
+    border-radius: 10px;
+}
+
+.container h1 {
+    font-size: 42px;
+}
+
+.formgroup input {
+    padding: 9px 135px;
+    margin: 14px 8px;
+    text-align: center;
+    display: block;
+    width: 36%;
+    border-radius: 10px;
+    border: 2px solid grey;
+
+}
+
+.btn2 {
+    /* display: block; */
+    width: 43%;
+    padding: 11px 24px;
+    margin: 3px 8px;
+    border-radius: 10px;
+    background-color: grey;
+    border: 2px solid white;
+    color: rgb(1, 36, 35);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.btn2:hover {
+    color: rgba(255, 255, 255, 0.337);
+}

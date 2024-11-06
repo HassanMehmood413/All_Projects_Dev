@@ -1,0 +1,60 @@
+//- index.pug
+doctype html
+html
+  head
+    style
+      include ../static/style.css
+  body
+    nav#navbar 
+        ul 
+            div#logo
+                img(src="/static/logo2.png")
+                h5  HDA
+            li #[a(href="/") Home]
+            li #[a(href="/") Services]
+            li #[a(href="/") Contact Us]
+            li #[a(href="/") About Us]
+
+            div
+                button.btn Get in Touch
+
+    section#introsection 
+        h1  Welcome To Hassan's  Dance Academy
+        div  Eat | Dance | Sleep
+    section#missionsection 
+        h1 Our Mission
+        div.box
+            h3 Dance Perfection 
+            div.card-box
+                div.card-img
+                    img(src="/static/logo1.png")
+                
+                div.card-content
+                p This is the best dance academy of the universe
+        div.box
+            h3 Dance the way you like
+             div.card-box
+                div.card-img
+                    img(src="/static/logo3.png")
+                
+                div.card-content
+                p Build some ideas how to do yourself
+        div.box
+            h3 Expert Teaching
+            div.card-box
+                div.card-img
+                    img(src="/static/logo4.png")
+                
+                div.card-content
+                p Work on the Experts advise that gives you much confidence 
+            
+
+
+    section#sponsersection 
+        h1 Our Sponsors
+    
+    footer#footer 
+        | Footer editing
+
+    script
+      include ../static/index.js
